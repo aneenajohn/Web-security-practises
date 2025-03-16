@@ -1,10 +1,13 @@
 import "./styles.css";
+import Comments from "./components/xss/stored-xss/Comments";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Web Security Practises</h1>
+
+      {/* Persistent XSS */}
+      <Comments />
     </div>
   );
 }
