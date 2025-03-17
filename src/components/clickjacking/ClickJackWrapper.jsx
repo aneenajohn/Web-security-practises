@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const ClickjackProtection = () => {
   useEffect(() => {
-    // ORwindow.top.location !== window.self.location
+    // OR window.top.location !== window.self.location
     if (window.self !== window.top) {
       document.body.innerHTML = ""; // Remove content if in an iframe
     }
