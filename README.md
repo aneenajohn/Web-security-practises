@@ -26,5 +26,5 @@ Stay secure! 🔐😃
    ```bash
    git clone https://github.com/aneenajohn/Web-security-practises.git
    ```
-2. Install dependencies: `npm install`
-3. Run the project: `npm start`
+2. Install dependencies: `pnpm install`
+3. Run the project: `pnpm start`
